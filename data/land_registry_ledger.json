@@ -1,0 +1,164 @@
+{
+  "difficulty": 2,
+  "authorized_registrars": [
+    "0xe442fc5f1b942ecf7b11be900eac9086da1f4ea5"
+  ],
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 0.0,
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkle_root": "6245c7d3d32a6ff092fc533766aa0061e63a3ec61a7871b454ab161dfe57a139",
+      "nonce": 137,
+      "hash": "004c8315f36df99aa996c7f06c911c9fd86cba05e0c8df05125622b90ca47d09",
+      "transactions": [
+        {
+          "tx_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "tx_type": "GENESIS",
+          "sender_address": "0x0000000000000000000000000000000000000000",
+          "sender_public_key_pem": "",
+          "timestamp": 0.0,
+          "payload": {
+            "message": "Genesis Block - Secure Land Registry Ledger Initialized"
+          },
+          "signature": "GENESIS_SIGNATURE"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "timestamp": 1789660649.4099612,
+      "previous_hash": "004c8315f36df99aa996c7f06c911c9fd86cba05e0c8df05125622b90ca47d09",
+      "merkle_root": "d37e16b053ad20e0b54e13d8910df5ad8e74e2fa85f9558a9936b59362603815",
+      "nonce": 75,
+      "hash": "005db6cbf306993d0433ee8919418aa5970316c5721010865647e052d9e14b02",
+      "transactions": [
+        {
+          "tx_hash": "887653eeac6b15dfc42ee67180bade5f7adfbf4ba8e442a87cab1fd30091d022",
+          "tx_type": "REGISTER_PROPERTY",
+          "sender_address": "0xefbde2d9d65bee84ec9fcdf9a84551c223a1c322",
+          "sender_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEdybbto6RG6HBEpTW9G9e6+UVM86O0LMh\naGOZJMdUvjkp7DJ5BV+nQGBWdt5fyxQXFU129NzsdEFfieGoSpgfjg==\n-----END PUBLIC KEY-----\n",
+          "timestamp": 1789660649.3928783,
+          "payload": {
+            "property_id": "PROP-UP-KNP-2026-001",
+            "survey_number": "CS/2026/894",
+            "location": {
+              "city": "Kanpur",
+              "state": "UP",
+              "district": "Civil Lines",
+              "gps": "26.4712 N, 80.3498 E"
+            },
+            "area_sqft": 3500.0,
+            "market_value": 15000000.0,
+            "ipfs_document_hash": "Qm38b81fca822b89d670dfe757c88d5d3a26d046950c12",
+            "owner_name": "Alice Sharma",
+            "layer_1_document_hash_verified": true
+          },
+          "signature": "3045022100a6bb7046f1bffa44d1a7af79738baf84c04afeec656fc165d051ddcb1bf87f0f02201f77dc3211aeae18fbbdbfcb0da72e4cd26f1d913fe37241ed5f8e096d53fd90"
+        },
+        {
+          "tx_hash": "de92940b43bcd3f8c925dd055d98bf57f9fbc91334d2dc424f09d329d8dd8a95",
+          "tx_type": "VERIFY_PROPERTY",
+          "sender_address": "0xe442fc5f1b942ecf7b11be900eac9086da1f4ea5",
+          "sender_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAESKNUhbMbNNVOP1SxtX/KOpbhbPqZxdGm\ntvYHjXWOuYpMfJZKLAHM5O1k0GMoNC45PlxA6cGLE7ob47wcNRjC0g==\n-----END PUBLIC KEY-----\n",
+          "timestamp": 1789660649.4055943,
+          "payload": {
+            "property_id": "PROP-UP-KNP-2026-001",
+            "registrar_name": "Kanpur Municipal Land Registry Office (Sub-Registrar 4B)",
+            "layer_1_doc_verified": true,
+            "layer_2_authority_verified": true,
+            "remarks": "Physical deed, surveyor coordinates (CS/2026/894), and encumbrance cleared."
+          },
+          "signature": "3046022100e5234849c823aa316935e64fab6b849cfe386e8a345b56ed0c294015ecb41b90022100aead0498aa86d7f73787cf123da78b5f78f4f226865d56dccb69a24271cc7476"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "timestamp": 1789660649.41643,
+      "previous_hash": "005db6cbf306993d0433ee8919418aa5970316c5721010865647e052d9e14b02",
+      "merkle_root": "6d0c848a741835fd6ea5ac33fdd4b0bf13c01ea2a0255e45666d58b563b3837f",
+      "nonce": 842,
+      "hash": "00c5e4a9374d57fcaaac23d275fccd25793d0f682c933bafb062e039e121a4ca",
+      "transactions": [
+        {
+          "tx_hash": "6d0c848a741835fd6ea5ac33fdd4b0bf13c01ea2a0255e45666d58b563b3837f",
+          "tx_type": "TOKENIZE_PROPERTY",
+          "sender_address": "0xefbde2d9d65bee84ec9fcdf9a84551c223a1c322",
+          "sender_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEdybbto6RG6HBEpTW9G9e6+UVM86O0LMh\naGOZJMdUvjkp7DJ5BV+nQGBWdt5fyxQXFU129NzsdEFfieGoSpgfjg==\n-----END PUBLIC KEY-----\n",
+          "timestamp": 1789660649.4143238,
+          "payload": {
+            "property_id": "PROP-UP-KNP-2026-001",
+            "total_tokens": 100,
+            "token_symbol": "KNP-CIVIL",
+            "price_per_token": 150000.0
+          },
+          "signature": "30440220541a7e85ae803111db8048c0b5ffbec3d1b98e039e264443538eb03202a2f6c502200e2456ba3e6e9891a8a797c42a348fd1b8cd95cf9fc358f2c481794353dcca0b"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "timestamp": 1789660649.430734,
+      "previous_hash": "00c5e4a9374d57fcaaac23d275fccd25793d0f682c933bafb062e039e121a4ca",
+      "merkle_root": "e19f3f49e413f88fdf35d3114cdcb76f6bc6c18d9f7e0b0e5723851b5d7ce381",
+      "nonce": 89,
+      "hash": "00be4733ee7515f89968ba66655687527644b4fa4575f4906e9121a5f4ad6b39",
+      "transactions": [
+        {
+          "tx_hash": "b4caa6139dd6594dd72bc5a61507cff1ecbe30bf6ab6766456f96bb3c0e10830",
+          "tx_type": "TRANSFER_TOKENS",
+          "sender_address": "0xefbde2d9d65bee84ec9fcdf9a84551c223a1c322",
+          "sender_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEdybbto6RG6HBEpTW9G9e6+UVM86O0LMh\naGOZJMdUvjkp7DJ5BV+nQGBWdt5fyxQXFU129NzsdEFfieGoSpgfjg==\n-----END PUBLIC KEY-----\n",
+          "timestamp": 1789660649.4265203,
+          "payload": {
+            "property_id": "PROP-UP-KNP-2026-001",
+            "from_address": "0xefbde2d9d65bee84ec9fcdf9a84551c223a1c322",
+            "to_address": "0xaab88c4cc15c0870c48fa00e1b85bbc9558ffa0e",
+            "token_count": 30,
+            "total_amount": 4500000.0
+          },
+          "signature": "3046022100910c7ae303ac1f3d450e2fd58323a38d15b6ba4acbdf921f368547e3e9b24d60022100925176ebd6f351eed789dde8a395f6c5ccb050880697d25d8cd49e0769a2aaef"
+        },
+        {
+          "tx_hash": "7f7efad5ec3f3b55fcc0add883e981572cad0d5ee4c64fb9aba573be5ba38669",
+          "tx_type": "TRANSFER_TOKENS",
+          "sender_address": "0xefbde2d9d65bee84ec9fcdf9a84551c223a1c322",
+          "sender_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEdybbto6RG6HBEpTW9G9e6+UVM86O0LMh\naGOZJMdUvjkp7DJ5BV+nQGBWdt5fyxQXFU129NzsdEFfieGoSpgfjg==\n-----END PUBLIC KEY-----\n",
+          "timestamp": 1789660649.428928,
+          "payload": {
+            "property_id": "PROP-UP-KNP-2026-001",
+            "from_address": "0xefbde2d9d65bee84ec9fcdf9a84551c223a1c322",
+            "to_address": "0x03e62f437e8e36a18950a4c94c5632c888e23299",
+            "token_count": 20,
+            "total_amount": 3000000.0
+          },
+          "signature": "3044022060c4c1a8078f58c60a892fd623f023e0605138c769036e1b1fe8cf27679f0ec902205eb1d3a6d23f6da5cb89f255d0aaee19f93f0b45c8146ca62edafe9309cf437a"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "timestamp": 1789660649.436396,
+      "previous_hash": "00be4733ee7515f89968ba66655687527644b4fa4575f4906e9121a5f4ad6b39",
+      "merkle_root": "3658e185f148dcd6ad58836612a67b4920640f32552b23dae311f402ecf55dbd",
+      "nonce": 63,
+      "hash": "006c53895d787ebe3f61c5e908732a18c79f2cb0f6929f409f5af78e10070387",
+      "transactions": [
+        {
+          "tx_hash": "3658e185f148dcd6ad58836612a67b4920640f32552b23dae311f402ecf55dbd",
+          "tx_type": "DISTRIBUTE_RENT",
+          "sender_address": "0xefbde2d9d65bee84ec9fcdf9a84551c223a1c322",
+          "sender_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEdybbto6RG6HBEpTW9G9e6+UVM86O0LMh\naGOZJMdUvjkp7DJ5BV+nQGBWdt5fyxQXFU129NzsdEFfieGoSpgfjg==\n-----END PUBLIC KEY-----\n",
+          "timestamp": 1789660649.4342122,
+          "payload": {
+            "property_id": "PROP-UP-KNP-2026-001",
+            "total_rent_amount": 100000.0,
+            "period": "March 2026"
+          },
+          "signature": "304502205b89317238f6dc4c42eb0d0607f4f2cabc3a7f40c76db6a943129c4b5c45ebb3022100da6f21b7247bd5e0a62c43dd72df9537d7fdaff8e059a8683a28782766efdede"
+        }
+      ]
+    }
+  ]
+}

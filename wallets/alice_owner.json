@@ -1,0 +1,10 @@
+{
+  "label": "alice_owner",
+  "address": "0xefbde2d9d65bee84ec9fcdf9a84551c223a1c322",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEdybbto6RG6HBEpTW9G9e6+UVM86O0LMh\naGOZJMdUvjkp7DJ5BV+nQGBWdt5fyxQXFU129NzsdEFfieGoSpgfjg==\n-----END PUBLIC KEY-----\n",
+  "public_key_hex": "047726dbb68e911ba1c11294d6f46f5eebe51533ce8ed0b32168639924c754be3929ec3279055fa740605676de5fcb1417154d76f4dcec74415f89e1a84a981f8e",
+  "is_encrypted": true,
+  "crypto_algorithm": "AES-256-CBC / PKCS#8",
+  "created_at": 1789660649.3723261,
+  "private_key_pem": "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIH0MF8GCSqGSIb3DQEFDTBSMDEGCSqGSIb3DQEFDDAkBBBI9VD4Mx+UIEAYfibI\nphC4AgIIADAMBggqhkiG9w0CCQUAMB0GCWCGSAFlAwQBKgQQSuDObRHO7PaBcEZU\ndF+VRgSBkNAK0GeDr3dhofu0Xgr9X6wJomgCTb/3Dk3f6W/9Y4cHJeBehifugKmw\nOiQ+HJe4v7FhclvQB+H0P7EZhlN5yqKHZdr9pgoSiRWeheMttRra9VDduOAUQhwN\nLlfV7SHUuOvUUwn6K+iLhOwyBct2UXCWw/s4JPhROAA4Bz2ErneDtGcL7JaMX0o7\nCEbIrsaBfg==\n-----END ENCRYPTED PRIVATE KEY-----\n"
+}

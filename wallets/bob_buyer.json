@@ -1,0 +1,10 @@
+{
+  "label": "bob_buyer",
+  "address": "0xb5dc81cd8d3e29b4a2a45ce2e3b38f5ac463e60f",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEJrBX4TudKNH3e3NJ2IUGMxZeELZAzey9\no5PX3TAAb94OBjD3XieNq8BU6RNKPRsx5tp2cwoySWDmoitirPs0cQ==\n-----END PUBLIC KEY-----\n",
+  "public_key_hex": "0426b057e13b9d28d1f77b7349d8850633165e10b640cdecbda393d7dd30006fde0e0630f75e278dabc054e9134a3d1b31e6da76730a324960e6a22b62acfb3471",
+  "is_encrypted": true,
+  "crypto_algorithm": "AES-256-CBC / PKCS#8",
+  "created_at": 1789660649.3739939,
+  "private_key_pem": "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIH0MF8GCSqGSIb3DQEFDTBSMDEGCSqGSIb3DQEFDDAkBBB1GJup/KDV4oUqvx+P\n5spJAgIIADAMBggqhkiG9w0CCQUAMB0GCWCGSAFlAwQBKgQQnp8RqLUcBORWfSs2\nhPFgfgSBkBwDkMPtd9NTTqlwjoTo3XYLn3f7mYS3r/zOZrG9DjP0+OX+s9OzyHlc\nucKSTa05VJRmHRHfBohLu6oPEFkC49TIPY+A2xcLsdYKQaEU31UPnvF15nGD0amd\nCjTTjUd4PqSuadbOfzyb/xZxuWeeGhYc8mAG1pOkM4fgtSVjljK3z/oOAJZbKGQl\n1Fhb7FukMw==\n-----END ENCRYPTED PRIVATE KEY-----\n"
+}

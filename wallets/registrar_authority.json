@@ -1,0 +1,10 @@
+{
+  "label": "registrar_authority",
+  "address": "0xe442fc5f1b942ecf7b11be900eac9086da1f4ea5",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAESKNUhbMbNNVOP1SxtX/KOpbhbPqZxdGm\ntvYHjXWOuYpMfJZKLAHM5O1k0GMoNC45PlxA6cGLE7ob47wcNRjC0g==\n-----END PUBLIC KEY-----\n",
+  "public_key_hex": "0448a35485b31b34d54e3f54b1b57fca3a96e16cfa99c5d1a6b6f6078d758eb98a4c7c964a2c01cce4ed64d06328342e393e5c40e9c18b13ba1be3bc1c3518c2d2",
+  "is_encrypted": true,
+  "crypto_algorithm": "AES-256-CBC / PKCS#8",
+  "created_at": 1789660649.3703737,
+  "private_key_pem": "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIH0MF8GCSqGSIb3DQEFDTBSMDEGCSqGSIb3DQEFDDAkBBBVRcqmEVGH2lQCIBFi\nvWo+AgIIADAMBggqhkiG9w0CCQUAMB0GCWCGSAFlAwQBKgQQ5pB+SmHUiUnYJXF/\nRkwChASBkLaKZ4gYBfZGkwFnv9mEf+MosE5zi7m12qfcfdQ3fgYSFnlwLH/VTIcw\nwUSFKyXfzoWV9JeTMo3uPCqAg3ez4GCG/n06i6wJUy/5nRfEttQ8IJ73R1YtCN7S\nTnIUjpRTKUw7SZxvviiMvkWbW1i2qWq9TxhrT2fl/0e36wCwp58vBzx1pZ2mDFpy\njztn/H01Gg==\n-----END ENCRYPTED PRIVATE KEY-----\n"
+}
